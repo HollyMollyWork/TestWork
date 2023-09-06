@@ -1,0 +1,54 @@
+.footer {
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between;
+
+    width: 90%;
+    margin: 0 auto;
+    height: 20%;
+}
+
+.footer_button {
+
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+    padding: 15px;
+
+    border: 1px solid whitesmoke;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: #0095ff;
+
+    font-size: 27px;
+    font-weight: 600;
+    color: white;
+
+    width: 200px;
+}
+
+.footer_button:hover {
+    background-color: #0088ff;
+}
+
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.footer_arrow_up {
+    width: 10px;
+    height: 10px;
+    border-top: 3px solid #0095ff;
+    border-right: 3px solid #0095ff;
+
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-right: 5%;
+
+    transform: rotate(-45deg);
+}

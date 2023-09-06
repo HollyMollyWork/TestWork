@@ -1,0 +1,16 @@
+@media all and (max-width: 800px) {
+    .dws-menu {
+        overflow: hidden;
+    }
+}
+
+.dws-menu ul {
+    display: block;
+}
+
+@media screen and (max-width: 970px) {
+    .footer_arrow_up {
+        display: none;
+    }
+    
+}
